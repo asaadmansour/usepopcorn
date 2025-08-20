@@ -14,7 +14,7 @@ A React-based movie search and watchlist application where users can explore mov
 - **JavaScript (ES6+)** – Core logic and interactivity
 - **CSS3** – Styling with modern layouts
 - **OMDb API** – Fetching movie data
-- **Vite / Create React App** – Development and build tools
+- ** Create React App** – Development and build tools
 
 ---
 
@@ -28,3 +28,23 @@ A React-based movie search and watchlist application where users can explore mov
 ---
 
 ## 📂 Project Structure
+```plaintext
+usepopcorn/
+│── public/ # Static assets
+│── src/
+│ ├── components/ # Reusable React components
+│ ├── App.js # Main app component
+│ ├── index.js # Entry point
+│ └── styles.css # Global styles
+└── package.json # Dependencies & scripts
+```
+## 🛠 Installation & Usage
+Clone the repository:
+
+```bash
+git clone https://github.com/asaadmansour/usepopcorn.git
+cd usepopcorn
+Install dependencies:
+npm install
+npm run dev   # or npm start if using CRA
+```
